@@ -78,7 +78,7 @@ exclusive <- function(candidates, good_samps){
 }
 exclusive(rerun_names, good_samples)
 ################################## Plate districution of low reads ########################################
-B = stats$reads_raw <= 10000 #10000 and lower
+B = stats$reads_raw <= 20000 #10000 and lower
 low_reads = stats[B,]
 low_reads
 
